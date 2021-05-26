@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>Primeros Pasos HTML</title>
+ <link rel="stylesheet" href="CSS/estilo.css">
+   <link rel="stylesheet" href="fonts.css">   
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+ <center><style type="text/css">
+.menu{
+ list-style:none;
+padding:0px 0px 0px;
+margin:10px;
+}
+.menu li{
+margin:10px;
+padding:3px;
+float:left;
+position:relative;
+<!--box-shadow: 2px 2px 4px 1px #E67E22;-->
+}
+.menu li a{
+display: block;
+width: 200px;
+height: 30px;
+padding: 6px;
+line-height:30px;
+text-decoration: none;
+text-align: center;
+color: black;
+background-color: #FEFEFF;
+position: relative;
+border-left: 2px solid #333;
+}
+.menu li a:hover{
+color:black;
+background-color:#F72500;
+}
+ </style>
+ <style>
+ .menu ul{
+ position:absolute;
+left:10px;
+top:36px;
+margin:0px;
+list-style:none;
+padding:0px;
+opacity:0;
+transition:opacity .35s ease .2s;
+-webkit-transition:opacity .35s ease .2s;
+-moz-transition:opacity .35s ease .2s;
+-o-transition:opacity .35s ease .2s;
+visibility:hidden;
+}
+.menu ul li a{
+border-bottom:2px solid #333;
+border-left:none;
+display:block;
+text-align:center;
+}
+ </style>
+ <style>
+.menu li:hover ul{
+ opacity:1;
+visibility:visible;
+}
+     .menu li{
+margin:25px;
+padding:3px;
+float:left;
+position:relative;
+<!--box-shadow: 2px 2px 4px 1px #E67E22;-->
+}
+
+ </style>
+     </center>
+</head>
+
+
+
+
+ <body>
+     
+<div class="social">
+<ul>
+<li><a href="https://www.facebook.com/Soldadura-Los-Ángeles-105260418425049" target="_blank" class="icon-facebook2"></a></li>
+<li><a href="https://www.instagram.com/soldadura_los_angeles/" target="_blank" class="icon-instagram"></a></li>
+<li><a href="https://api.whatsapp.com/send?phone=527721566135" target="_blank" class="icon-whatsapp"></a></li>
+<li><a href="https://twitter.com/home?lang=es" target="_blank" class="icon-twitter"></a></li>
+    </ul>     
+     </div>
+
+<nav>
+ 
+<ul class="menu" >
+ <li> <a href="principal.html" target="contenido" >Inicio</a></li>
+ <li> <a href="quienessomos.html" target="contenido">Quienes Somos</a></li>
+ <li> <a >Galeria</a>
+ <ul>
+ <li> <a href="tuto.html" target="contenido">Videos</a></li>
+ <li> <a href="productos.html" target="contenido">Productos</a></li>
+ </ul>
+
+ <li> <a href="contacto.html" target="contenido">Contactanos</a> </li>
+ 
+    <li> <a href="ubicacion.html" target="contenido">Ubicacion</a> </li>
+ </ul>
+</nav>
+
+
+<h1>
+<center> <img src="Encabezado.png" width="70%" height="210px"> </center>     
+</h1>
+<section id="main-content">
+ <article>
+ <center>
+ <iframe id="prueba" name="contenido" scrolling="yes" src="principal.html"
+width="1000" height="600" frameborder="0" style="border:none" allowfullscreen></iframe>
+<div class="content" >
+ 	
+    <div class="wrap">
+		<div class="widget">
+			<div class="fecha">
+	<p id="diaSemana" class="diaSemana"></p>
+				<p id="dia" class="dia"></p>
+				<p>de </p>
+				<p id="mes" class="mes"></p>
+				<p>del </p>
+				<p id="year" class="year"></p>
+			</div>
+	
+			<div class="reloj">
+				<p id="horas" class="horas"></p>
+				<p>:</p>
+				<p id="minutos" class="minutos"></p>
+				<p>:</p>
+				<div class="caja-segundos">
+					<p id="ampm" class="ampm"></p>
+					<p id="segundos" class="segundos"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script src="reloj.js"></script>
+ <center><font color="white" size="3"><p>Comunicate con nosotros para obtener trabajos de calidad<br></p></font>
+
+<footer id="main-footer">
+<font color="white" size="3"><p>&copy;Contactanos: solgeneangeles@gmail.com</p></font>
+<center>
+<footer>
+    
+    <center><font size="3"><a>Personas que han visitado la página: 
+<img style="border: 0px solid; display: inline;"  src="http://www.websmultimedia.com/contador-de-visitas.php?id=297676"></a></font> <br></center>
+ 
+    <a href="https://www.google.com/" target="_blank">
+ <img src="google.jpg" width="10%">
+ <font color="white" size="3"><p><center>© pie de la página</center></p></font>
+ </a>
+
+ </footer>
+</center>
+</footer>
+
+</center>
+</div>
+ </center>
+ </article>
+ </section>
+
+ </body>
+</html>
+
